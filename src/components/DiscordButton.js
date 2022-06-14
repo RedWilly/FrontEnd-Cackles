@@ -23,7 +23,7 @@ const DiscordButton = () => {
     return(
         <DBtn>
             <a href={'https://twitter.com/rink3y'} target="_blank" rel="noopener noreferrer" >
-                <img src={discord} width={20} alt="discord"/> {`Follow' Us`}
+                <img src={discord} width={20} alt="discord"/> {`Follow`}
             </a>
         </DBtn>
     )
