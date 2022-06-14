@@ -730,14 +730,9 @@ const Mint = () => {
             let provider = new ethers.providers.Web3Provider(window.ethereum, "any");
             let tmpContract = new ethers.Contract('0xbad64f85727D27e67631BC1a5B6e339cd1830c4a', ABI, provider.getSigner());
             setContract(tmpContract);
-            setConnected(true);
-
-            try {
-                setAlreadyMinted((await tmpContract.hasMinted(account)).toNumber());
-            } catch(e) {
-
-            }
+            setAlreadyMinted((await tmpContract.hasMinted(accounts[0])).toNumber());
             setTotalSupply((await tmpContract.totalSupply()).toNumber());
+            setConnected(true);
 
             window.ethereum.on("accountsChanged", () => {
                 window.location.reload();
