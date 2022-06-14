@@ -22,7 +22,7 @@ const DBtn = styled.button`
 const DiscordButton = () => {
     return(
         <DBtn>
-            <a href={'https://discord.gg/q29cdhb2AA'} target="_blank" rel="noopener noreferrer" >
+            <a href={'https://twitter.com/rink3y'} target="_blank" rel="noopener noreferrer" >
                 <img src={discord} width={20} alt="discord"/> {`Follow' Us`}
             </a>
         </DBtn>
