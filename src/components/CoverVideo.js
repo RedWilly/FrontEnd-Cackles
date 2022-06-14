@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import homevideo from '../assets/Home Video.mp4'
+import homevideo from '../assets/Home GIF.gif'
 
 const VideoContainer = styled.div`
     width: 100%;
