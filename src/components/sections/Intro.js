@@ -95,7 +95,7 @@ const Intro = () => {
                     <TextSmall>
                         Cackles are a NFT collection on the SmartBCH blockchain consisting of 8888 Chickens each having it's own unique properties.
                         <br /><br />
-                        <p>Minting of Cackles is absolutely free with a fee of 0.001 BCH ($0.2) to prevent Spammers.</p>
+                        <p>Minting of Cackles is absolutely free with a fee of $0.2 to prevent Spammers from Invading our little Space.</p>
                     </TextSmall>
                     <Mint />
                 </Box>
