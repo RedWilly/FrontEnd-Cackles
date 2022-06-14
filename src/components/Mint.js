@@ -706,7 +706,7 @@ const Mint = () => {
 
     const mint = async () => {
         try {
-            let tx = await contract.mint(mintAmount, {value: ethers.utils.parseEther((0.001 * mintAmount).toString())});
+            let tx = await contract.mint(mintAmount, {value: ethers.utils.parseEther((0.0016 * mintAmount).toString())});
             await tx.wait();
         } catch (e) {
             if(e.data) {
