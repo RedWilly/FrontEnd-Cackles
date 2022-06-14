@@ -165,12 +165,12 @@ const scrollTo = (id) => {
                     <MenuItem onClick={() => scrollTo('team')} >Team</MenuItem>
                     <MenuItem>
                         <div class="mobile">
-                            <Button text="OASIS MarketPlace" link="http://oasis.cash/"/>
+                            <Button text="OASIS MarketPlace" link="https://oasis.cash/collection/0xbad64f85727D27e67631BC1a5B6e339cd1830c4a"/>
                         </div>
                     </MenuItem>
                 </Menu>
                 <div class="desktop">
-                    <Button text="OASIS MarketPlace" link="http://oasis.cash/"/>
+                    <Button text="OASIS MarketPlace" link="https://oasis.cash/collection/0xbad64f85727D27e67631BC1a5B6e339cd1830c4a"/>
                 </div>
             </NavBar>
         </Section>
