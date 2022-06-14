@@ -18,7 +18,7 @@ const VideoContainer = styled.div`
 const CoverVideo = () => {
   return (
     <VideoContainer>
-        <video src={homevideo} type="video/mp4" autoPlay muted loop />
+        <video src={homevideo} type="video/gif" autoPlay muted loop />
     </VideoContainer>
   )
 }
