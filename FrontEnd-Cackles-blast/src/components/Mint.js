@@ -766,6 +766,9 @@ const Mint = () => {
                     <div>
                         Progress: {totalSupply} / 10000
                     </div>
+                    <div>
+                        Nuggets Minted: {alreadyMinted} / 10
+                    </div>
                     {alreadyMinted < 10 ? (<>
                         <div>
                             <Btn2 onClick={sub}>-</Btn2>
