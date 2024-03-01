@@ -166,12 +166,12 @@ const Navigation = () => {
                     <MenuItem onClick={() => window.open('https://cackles.vercel.app/', '_blank')}>SBCH</MenuItem>
                     <MenuItem>
                         <div class="mobile">
-                            <Button text="MarketPlace" link="https://benswap.cash/nft/collection/0xbad64f85727D27e67631BC1a5B6e339cd1830c4a" />
+                            <Button text="MarketPlace" link="#" />
                         </div>
                     </MenuItem>
                 </Menu>
                 <div class="desktop">
-                    <Button text="MarketPlace" link="https://benswap.cash/nft/collection/0xbad64f85727D27e67631BC1a5B6e339cd1830c4a" />
+                    <Button text="MarketPlace" link="#" />
                 </div>
             </NavBar>
         </Section>
