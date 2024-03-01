@@ -163,7 +163,6 @@ const Navigation = () => {
                     <MenuItem onClick={() => scrollTo('showcase')} >Showcase</MenuItem>
                     <MenuItem onClick={() => scrollTo('about')} >About</MenuItem>
                     <MenuItem onClick={() => scrollTo('team')} >Team</MenuItem>
-                    <MenuItem onClick={() => window.open('https://cackles.vercel.app/', '_blank')}>SBCH</MenuItem>
                     <MenuItem>
                         <div class="mobile">
                             <Button text="MarketPlace" link="#" />
