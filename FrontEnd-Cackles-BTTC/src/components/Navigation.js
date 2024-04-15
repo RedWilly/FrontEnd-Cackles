@@ -170,7 +170,7 @@ const Navigation = () => {
                     </MenuItem>
                 </Menu>
                 <div class="desktop">
-                    <Button text="MarketPlace" link="#" />
+                    <Button text="MarketPlace" link="https://rooni.art/collection/0xb9eE65be6b413fcB711ced63cCA8EFFB3AE445e7" />
                 </div>
             </NavBar>
         </Section>
