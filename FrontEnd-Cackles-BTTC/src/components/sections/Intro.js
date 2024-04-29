@@ -97,7 +97,7 @@ const Intro = () => {
 
                         Picture this a mega-clan of 10,000 uniquely weird and wonderfully diverse chickens stepping into the limelight.<br /><br />
 
-                        Minting Nuggets is 600000 BTT($0.80) in place to deter spammers from invading our cozy space.
+                        Minting Nuggets is 0 BTT($0.00) in place to deter spammers from invading our cozy space.
                     </TextSmall>
 
                     <Mint />

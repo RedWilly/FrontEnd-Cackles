@@ -704,7 +704,7 @@ const Mint = () => {
     const [account, setAccount] = useState(null);
     const [error, setError] = useState(null);
     // Calculate the total cost in wei directly to avoid fractional issues
-    const costPerNftInWei = ethers.utils.parseUnits('600000', 'ether'); // This converts the ether value to wei
+    const costPerNftInWei = ethers.utils.parseUnits('0', 'ether'); // This converts the ether value to wei
     const totalCostInWei = costPerNftInWei.mul(mintAmount); // Use BigNumber multiplication to calculate total cost
 
 
@@ -782,9 +782,9 @@ const Mint = () => {
                         Progress: {totalSupply} / 10000
                     </div>
                     <div>
-                        Nuggets Minted: {alreadyMinted} / 100  ∞
+                        Nuggets Minted: {alreadyMinted} / 10  ∞
                     </div>
-                    {alreadyMinted < 100 ? (<>
+                    {alreadyMinted < 10 ? (<>
                         <div>
                             <Btn2 onClick={sub}>-</Btn2>
                             <Input value={mintAmount} readonly></Input>
